@@ -35,8 +35,8 @@ O projeto está sendo desenvolvido com as seguintes tecnologias:
 - Typescript
 - Node.js
 - React.js
-- <s>React Native</s> (próximas aulas 🚧)
-- <s>Expo</s> (próximas aulas 🚧)
+- React Native
+- Expo
 
 --- 
 
