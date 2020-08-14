@@ -1,48 +1,123 @@
-<h3 align="center">
-  *🚧 Em construção 🚧*
-</h3>
+<div align="center">
 
-## 📋 Índice
+![Proffy Landing](https://ik.imagekit.io/capitao/Proffy/preview_9WT1Wt2Jz.png)
 
-- [Sobre](#-Sobre)
-- [Tecnologias utilizadas](#-Tecnologias-utilizadas)
-- [Como executar o projeto](#-Como-executar-o-projeto)
-- [Preview](#-Preview)
+![NLW2 Badge](https://img.shields.io/badge/NLW2-Rocketseat-blueviolet?style=for-the-badge&logo=skyliner&logoColor=white)
+![License Badge](https://img.shields.io/github/license/bordmelo/proffy?style=for-the-badge)
 
----
-
-## 🖥 Preview 
+</div>
 
 <p align="center">
-  <img src="https://ik.imagekit.io/capitao/Proffy/preview_9WT1Wt2Jz.png" width="700" >
+ <a href="#computer-sobre">Sobre</a> •
+ <a href="#triangular_ruler-status-do-projeto">Status</a> •
+ <a href="#movie_camera-demonstração">Demonstração</a> •
+ <a href="#books-projeto">Projeto</a> •
+ <a href="#hammer-tecnologias">Tecnologias</a> •
+ <a href="#dvd-executar-o-projeto">Executar</a> •
+ <a href="#page_facing_up-licença">Licença</a>
 </p>
+
+## :computer: Sobre
+
+O projeto é desenvolvido para estudantes e professores. Os professores pode realizar o cadastro na plataforma inserindo algumas informações pessoais como nome, biografia, whatsapp para contato dos alunos e dias da semana com horário disponíveis para oferecer aula. Os alunos buscam professores particulares através do horário, dias da semana e matéria de sua escolha.
+
+Projeto desenvolvido durante a **NLW - Next Level Week#2** na **Trilha Omnistack** oferecida pela [Rocketseat](https://www.rocketseat.com.br).
+O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+
+---
+### :triangular_ruler: **Status do Projeto**
+
+<h4 align="center"> 
+	✅  Proffy 💼 Concluído  ✅
+</h4>
+
+---
+### :movie_camera: **Demonstração**
+
+<p align="center"><kbd><img style="border-radius: 5px" width="480" alt="Demonstração do Aplicativo Proffy" src="https://media0.giphy.com/media/WSy2nIHQH9l4IiUi7u/giphy.gif"></kbd> <kbd><img style="border-radius: 5px" width="270" alt="Demonstração do Aplicativo Proffy" src="https://media3.giphy.com/media/JPV1od5vX6IdCY5yxC/giphy.gif"></kbd></p>
 
 ---
 
-## 📖 Sobre 
+### :books: **Projeto**
 
-Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, realizada pela **[@Rocketseat](https://github.com/Rocketseat)** durante os dias 3 a 9 de Agosto de 2020.
+> <p style="margin-left:5em">🏭  &nbsp;&nbsp;&nbsp;&nbsp;./server - API REST usando TypeScript, Express e banco de dados PostgreSQL </p>
+> <p style="margin-left:5em">🔮  &nbsp;&nbsp;&nbsp;&nbsp;./web - Interface web em ReactJS e TypeScript </p>
+> <p style="margin-left:5em">📱 &nbsp;&nbsp;&nbsp;&nbsp;./mobile - Interface mobile em ReactNative, TypeScript e Expo </p>
 
-A proposta do projeto é realizar a ponte entre o professor e o aluno, nela o professor pode se cadastrar informando o que deseja ensinar, o horário disponível e o seu preço! 
+---
+### :hammer: **Tecnologias**
 
---- 
-
-## 🚀 Tecnologias utilizadas
-
-O projeto está sendo desenvolvido com as seguintes tecnologias:
-
+As seguintes ferramentas foram utilizadas na construção do projeto:
 
 - Typescript
 - Node.js
+- PostgreSQL
 - React.js
 - React Native
 - Expo
 
---- 
+---
+### :dvd: **Executar o Projeto**
 
-## ⌨ Como executar o projeto
+#### 🎲 Rodando o Backend (servidor)
 
 ```bash
-Em desenvolvimento
+
+# Vá para a pasta server
+$ cd server
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+
 ```
+<p align="center">
+  É necessário configurar o banco de dados no arquivo **knexfile.ts** e **src/database/connection.ts**
+</p>
+
+
+#### 🧭 Rodando a aplicação web (Frontend)
+
+```bash
+
+# Vá para a pasta da aplicação Front End
+$ cd web
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+#### 📲 Rodando a aplicação mobile (mobile)
+
+```bash
+
+# Vá para a pasta da aplicação Mobile
+$ cd web
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+
+# A aplicação será aberta em seu navegador
+
+# Baixe o aplicativo Expo em seu celular e escaneie o QRCode
+
+```
+
 ---
+### :page_facing_up: **Licença**
+
+Copyright © 2020 [Lucas Melo](https://github.com/rafaelfachinelli).<br />
+This project is [MIT](./LICENSE) licensed.
