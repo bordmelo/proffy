@@ -76,7 +76,7 @@ $ npm run dev
 
 ```
 <p align="center">
-  É necessário configurar o banco de dados no arquivo **knexfile.ts** e **src/database/connection.ts**
+ É necessário configurar o banco de dados no arquivo <code>knexfile.ts</code> e <code>src/database/connection.ts</code>
 </p>
 
 
