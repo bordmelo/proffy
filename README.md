@@ -119,6 +119,9 @@ $ npm run start
 ---
 ### :page_facing_up: **Licença**
 
+Copyright © 2020 <a href="https://github.com/bordmelo" target="_blank">Lucas Melo</a><br />
+This project is <a href="./LICENSE">MIT</a> licensed.
+
 <p align="left">
   <a href="https://twitter.com/bordmelo" target="blank">
     <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=30d9bb" alt="Twitter"/>
@@ -133,5 +136,3 @@ $ npm run start
     <img src="https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white&color=30d9bb" alt="Facebook"/>
   </a>
 </p>
-Copyright © 2020 <a href="https://github.com/bordmelo" target="_blank">Lucas Melo</a><br />
-This project is <a href="./LICENSE">MIT</a> licensed.
